@@ -58,9 +58,8 @@ const Hero: React.FC = () => {
         className="absolute inset-0 z-0 select-none will-change-transform"
       >
         <div className="absolute inset-0 bg-brand-charcoal/20 z-10 mix-blend-multiply"></div>
-        {/* Using an abstract architectural image for a more premium 'studio' feel */}
         <img
-          src="https://images.unsplash.com/photo-1597423244036-ef5020e8d2da?q=80&w=2574&auto=format&fit=crop"
+          src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070&auto=format&fit=crop"
           alt="Atmosphere"
           className="w-full h-full object-cover opacity-60 grayscale-[40%]"
         />

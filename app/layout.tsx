@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "İnci Dental Studio",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1597423244036-ef5020e8d2da?q=80&w=2574&auto=format&fit=crop", // same image as the hero
+        url: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=2070&auto=format&fit=crop", // same image as the hero
         width: 1200,
         height: 630,
         alt: "İnci Diş Kliniği",
