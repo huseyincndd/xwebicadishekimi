@@ -18,6 +18,22 @@ const cormorantGaramond = Cormorant_Garamond({
 export const metadata: Metadata = {
   title: "İnci Diş Kliniği | Estetik ve Mükemmellik",
   description: "Nişantaşı'nın kalbinde, kişiye özel mükemmellik. Gülüşünüz, karakterinizin en saf yansımasıdır.",
+  openGraph: {
+    title: "İnci Diş Kliniği | Estetik ve Mükemmellik",
+    description: "Nişantaşı'nın kalbinde, kişiye özel mükemmellik. Gülüşünüz, karakterinizin en saf yansımasıdır.",
+    url: "https://xwebicadishekimi.vercel.app/",
+    siteName: "İnci Dental Studio",
+    images: [
+      {
+        url: "https://images.unsplash.com/photo-1597423244036-ef5020e8d2da?q=80&w=2574&auto=format&fit=crop", // same image as the hero
+        width: 1200,
+        height: 630,
+        alt: "İnci Diş Kliniği",
+      },
+    ],
+    locale: "tr_TR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
